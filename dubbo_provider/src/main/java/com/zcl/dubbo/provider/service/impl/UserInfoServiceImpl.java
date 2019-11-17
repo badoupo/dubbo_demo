@@ -7,6 +7,6 @@ import com.zcl.dubbo.service.UserInfoService;
 @org.springframework.stereotype.Service
 public class UserInfoServiceImpl implements UserInfoService {
     public String getName(Integer userId) {
-        return "我的名字";
+        return "test name";
     }
 }
