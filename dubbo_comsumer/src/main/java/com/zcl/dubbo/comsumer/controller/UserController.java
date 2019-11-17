@@ -11,8 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @Autowired
     UserService userService;
+
     @GetMapping("/getName")
-    public String getName(){
-        return userService.getUserName();
+    public String getName() {
+        return "test:" + userService.getUserName();
     }
 }
